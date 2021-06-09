@@ -4,3 +4,4 @@ Yt account details should be put in along with names of game or list of streamer
 No of clips to be downlaoded should be inputed as well.
 File locations should be checked.
 AutoIT file might have to be redone.
+Main is for the clips for a particular game.
