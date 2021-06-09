@@ -119,10 +119,10 @@ while i < 5:
     if m == 1 :
         #log in details needed for first time only
         name = driver.find_element_by_xpath("//*[@id='identifierId']")
-        name.send_keys("clipbot1509@gmail.com")
+        name.send_keys(" ")
         driver.find_element_by_xpath("//*[@id='identifierNext']/div/button/div[2]").click()
         pas = driver.find_element_by_xpath("//*[@id='password']/div[1]/div/div[1]/input")
-        pas.send_keys("qwe123r4@clipbot1509")
+        pas.send_keys(" ")
         driver.find_element_by_xpath("//*[@id='passwordNext']/div/button/div[2]").click()
         print(driver.title)
         m = m + 1
